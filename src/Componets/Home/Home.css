@@ -1,0 +1,124 @@
+.HomeROW{
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.59);
+  /* border: white solid .5px; */
+  height: 100%;
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+.HeroBg{
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 12px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.59);
+}
+
+.HEROIMG{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*{
+  scroll-behavior: smooth;
+}
+.Yashwa{
+  margin-top: 1rem;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  letter-spacing: 2px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.Hi{
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 4ch;
+  text-align: center;
+  font-weight: 300;
+}
+.MERN{
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 1ch;
+  font-weight: 400;
+  text-align: center;
+}
+.Para{
+  margin-top: 2ch;
+  font-weight: 300;
+  text-align: center;
+}
+.leaveInfo{
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 3ch;
+}
+
+.main{
+  margin-top: 5ch;
+}
+.Container{
+  color: none;
+}
+.IdContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) and (min-width: 350px) {
+  .Yashwa {
+  font-size: 2rem;
+  }
+  
+  .Hi {
+  margin-top: 2ch;
+  }
+  
+  .MERN {
+  margin-top: 1ch;
+  }
+  
+  .Para {
+  margin-top: 1.5ch;
+  }
+  
+  .leaveInfo {
+  margin-top: 2.5ch;
+  }
+  
+  .HEROIMG {
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .HomeROW, .HeroBg, .HEROIMG, .Yashwa, .Hi, .MERN, .Para, .leaveInfo, .main, .Container, .IdContainer {
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+  }
+.hiiiiOrder{
+  order: 2;
+}
+.hiiiiOrder1{
+  order: 1;
+}
+  }
+
+  @media screen and (max-width: 850px) and (min-width: 660px){
+    .hiiiiOrder{
+      order: 2;
+    }
+    .hiiiiOrder1{
+      order: 1;
+    }
+    
+  }
+  @media screen and (max-width: 980px) and (min-width: 850px){
+    .hiiiiOrder{
+      order: 2;
+    }
+    .hiiiiOrder1{
+      order: 1;
+    }
+  }
+  

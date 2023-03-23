@@ -1,0 +1,48 @@
+.button {
+    /* background-color  : rgb(25, 27, 116); */
+    border-radius: 19px;
+}
+
+.customMargin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
+}
+
+.hoverEffect:hover {
+    display: inline-block;
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+.hoverEffect:after {
+    display: inline-block;
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+.logoimg {
+    height: 3ch;
+    margin: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(44, 9, 62);
+}
+
+::-webkit-scrollbar-thumb {
+    /* background-color: aliceblue; */
+    border: 15px solid aliceblue;
+    border-radius: 9px;
+    background-clip: content-box;
+}

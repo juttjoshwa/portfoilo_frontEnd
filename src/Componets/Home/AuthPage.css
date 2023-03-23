@@ -1,0 +1,30 @@
+.auth-page-container {
+    margin-top: 10vh;
+    padding: 0 20px;
+  }
+  
+  input[type="password"] {
+    border-radius: 8px;
+    margin-left: 3px;
+    width: 100%;
+  }
+  
+  button[type="submit"],
+  button {
+    margin-left: 2px;
+    margin-bottom: 8px;
+    width: 30%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* styles for screens larger than 768px */
+    .auth-page-container {
+      margin-top: 19ch;
+      
+    }
+    #12m{
+      border: 2px solid red;
+    }
+  
+  }
+  

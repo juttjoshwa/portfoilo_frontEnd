@@ -1,0 +1,66 @@
+.borderBack{
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  /* border: red solid 2px; */
+}
+.imgAbout{
+  height: 10ch;
+  width: 11ch;
+}
+@media only screen and (max-width: 650px) {
+  .p-4{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* center the items horizontally */
+      align-items: center; /* center the items vertically */
+    }
+    
+  .imgAbout {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+ .llllImgContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center the items horizontally */
+  align-items: center; /* center the items vertically */
+ }
+  .imgAbout {
+  height: 1rem;
+  width: 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 660px){
+  .p-5{
+      display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center the items horizontally */
+  align-items: center; 
+  }
+  .llllImgContainer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* center the items horizontally */
+      align-items: center; /* center the items vertically */
+     }
+     .p-4{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* center the items horizontally */
+      align-items: center; /* center the items vertically */
+    }
+   .SkillBar{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+   .imgAbout {
+    height: 2rem;
+    width: 2rem;
+    }
+}

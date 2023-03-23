@@ -1,0 +1,39 @@
+.logoimg1{
+    height: 3vmax;
+    width:  3vmax;
+}
+@media screen and (max-width: 770px) {
+    .navbar-brand img {
+    height: 5ch;
+    }
+    
+    .navbar-nav {
+    margin-top: 10px;
+    }
+    
+    .nav-item {
+    margin-bottom: 5px;
+    }
+    
+    .form-switch {
+    margin-left: 5px;
+    }
+    }
+    
+    @media screen and (max-width: 350px) {
+    .navbar-brand img {
+    height: 4ch;
+    }
+    
+    .navbar-nav {
+    margin-top: 5px;
+    }
+    
+    .nav-item {
+    margin-bottom: 3px;
+    }
+    
+    .form-switch {
+    margin-left: 2px;
+    }
+    }

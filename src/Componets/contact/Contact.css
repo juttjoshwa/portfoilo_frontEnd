@@ -1,0 +1,15 @@
+.navColor{
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.59);
+}
+.containerC{
+    padding: 5ch;
+    padding-top: 9ch;
+}
+.thank{
+    margin-top: 20ch;
+}
+.hello{
+    border: red solid 2px;
+}
